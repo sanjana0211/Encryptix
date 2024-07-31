@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+main{
+    height: 152vh;
+    width: 100%;
+    background-color: #7abfef;
+}
+.containerOne{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.timeline{
+    height:152vh;
+    width: 30%;
+    background-color: white;
+    font-size: 16px;
+    padding: 1%;
+}
+.inner{
+    width: 70%;
+    height: 80vh;
+    font-size: 14px;  
+    padding: 4% 2%;
+}
+.containerInner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50vh;
+}
+.timeline-content{
+    padding: 8%;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: start;
+}
+.one h3{
+    position: relative;
+    padding: 1px 1px 1px 11px;
+}
+.one h3::before{
+    content: "";
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    background-color: #005590;
+    border-radius: 50%;
+    left: -5px;
+    top: 19%;
+    border: 1px solid #8e9da8;
+}
+.one p{
+    padding: 2%;
+    border-left: 3px solid #005590;
+    text-align: justify;
+   
+}
+.image{
+    height: 400px;
+    width: 800vh;
+    border-radius: 1%;
+    overflow: hidden;
+    justify-content: center;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
+.image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.bio{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding:50px;
+}
+.bio h1{
+    font-size: 26px;
+}
+.bio p{
+    font-size: 16px;
+    text-align: justify;
+    padding-bottom: 20px;
+    
+}
+button{
+    background-color: white;
+    color: #005590;
+    font-weight: 700;
+    padding: 10px 30px;
+    border: none;
+    font-size: 18px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.635);
+}
